@@ -1,7 +1,8 @@
 var quiz = {};
-var uanswer = newArray();
-var qanswer = newArray();
-var question = newArray();
+var uanswer = new Array();
+var qanswer = new Array();
+var question = new Array();
+var q = 0;
 var score = 0;
 function Tracker() {
  var random = Math.floor(Math.random()*num*2*1000000000000072*Math.random());
@@ -20,4 +21,7 @@ else
 {
 score--;   
 }
+}
+function quiz.start(){
+$('question').value(function(index)question[q];);
 }
