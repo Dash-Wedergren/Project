@@ -11,6 +11,9 @@ function Tracker() {
  var date = newDate();
  console.log(date); 
 }
+function quiz.starttimer(){
+    
+}
 function quiz.check(){
 var uanswer[qcount] = document.getElementById('answer');
 if (uanswer == qanswer)
